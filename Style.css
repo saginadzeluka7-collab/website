@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body {
+    background-color: #E2ECF8;
+}
+
+form {
+    width: 350px;
+    box-shadow: 0 0 5px grey;
+    margin: auto;
+    justify-content: center;
+}
+
+form h2 {
+    background-color: #145780;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.row .field {
+    width: 50%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inner input,.inner button,.inner select {
+    height: 40px;
+    border: 0.5px solid gray;
+}
+
+.inner button {
+    background-color: #2C95D2;
+    color: white;
+    cursor: pointer;
+}
